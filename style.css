@@ -1,0 +1,20 @@
+nav li a{
+    text-decoration: none;
+}
+nav li{
+    /*border: 10px solid black;*/
+    padding: 20px;
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+    
+}
+nav li:hover{
+    background-color: bisque;
+    border-radius: 20px;
+}
+div{
+    /*border: 10px solid black;*/
+    margin: 40px;
+    text-align: right;
+}
