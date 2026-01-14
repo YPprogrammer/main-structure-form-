@@ -14,6 +14,7 @@
       .container {
         display: flex;
         margin-bottom: 10px;
+        gap: 20px;
       }
       .box {
         font-size: 70px;
@@ -24,6 +25,38 @@
       .box-container {
         display: flex;
       }
+      .card-container{
+        display: flex;
+        /* justify-content: center; */
+        justify-content: space-around;
+      }
+      .card{
+        border: 2px solid green;
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+        color: red;
+        background-color: pink;
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      .user-container{
+        display:flex ;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .user{
+        border: 2px solid green;
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+        color: red;
+        background-color: pink;
+        font-size: 2em;
+        
+      }
+        
+      
     </style>
   </head>
   <body>
@@ -41,5 +74,27 @@
       <div class="box">3</div>
       <div class="box">4</div>
     </div>
+
+    <div class="card-container">
+        <div class="card">card-1</div>
+        <div class="card">card-2</div>
+        <div class="card">card-3</div>
+        <div class="card">card-4</div>
+    </div>
+    <div class="user-container">
+        <div class="user">user-1</div>
+        <div class="user">user-2</div>
+        <div class="user">user-3</div>
+        <div class="user">user-4</div>
+        <div class="user">user-5</div>
+        <div class="user">user-6</div>
+        <div class="user">user-7</div>
+        <div class="user">user-8</div>
+        <div class="user">user-9</div>
+        <div class="user">user-10</div>
+        <div class="user">user-11</div>
+        <div class="user">user-12</div>
+    </div>
+
   </body>
 </html>
